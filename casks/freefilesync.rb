@@ -10,5 +10,10 @@ cask "freefilesync" do
 
   pkg "FreeFileSync_#{version}.pkg"
 
-  uninstall pkgutil: "org.freefilesync.FreeFileSync"
+    zap trash: [
+    "~/Applications/FreeFileSync.app"
+    "/usr/local/bin/freefilesync"
+    "~/Users/leosasseron/Library/Application Support/FreeFileSync"
+    "~/var/folders/_7/j4m7y9p14txf0rd2z1vy6g3r0000gn/C/org.freefilesync.FreeFileSync"
+]
 end
