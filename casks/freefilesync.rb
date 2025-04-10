@@ -3,8 +3,8 @@ cask "freefilesync" do
   url "https://github.com/hkneptune/FreeFileSync/releases/download/v#{version}/FreeFileSync_#{version}_macOS.zip",
       verified: "github.com/hkneptune/FreeFileSync/"
   name "FreeFileSync"
-  desc "Poderosa ferramenta de sincronização de arquivos"
-  homepage "https://freefilesync.org/"
+  desc "Open Source File Sync"
+  homepage "https://github.com/hkneptune/FreeFileSync/releases"
 
   auto_updates true
 
