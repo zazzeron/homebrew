@@ -1,10 +1,9 @@
 cask "freefilesync" do
-  version "14.2"
-  url "https://github.com/hkneptune/FreeFileSync/releases/download/v#{version}/FreeFileSync_#{version}_macOS.zip",
-      verified: "github.com/hkneptune/FreeFileSync/"
+  version "14.3"
+  url "https://freefilesync.org/download/FreeFileSync_#{version}_macOS.zip"
   name "FreeFileSync"
   desc "Open Source File Sync"
-  homepage "https://github.com/hkneptune/FreeFileSync/releases"
+  homepage "https://freefilesync.org"
 
   auto_updates true
 
