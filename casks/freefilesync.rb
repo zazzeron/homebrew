@@ -8,7 +8,7 @@ cask "freefilesync" do
   desc "Poderosa ferramenta de sincronização de arquivos"
   homepage "https://freefilesync.org/"
 
-  app "FreeFileSync.pkg"
+  app "FreeFileSync_14.3.pkg"
 
   zap trash: [
     "~/Library/Application Support/FreeFileSync",
